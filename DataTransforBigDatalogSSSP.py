@@ -1,14 +1,14 @@
 #！/usr/bin/env python
 #!-*-coding:utf-8 -*-
-#!@Create :2019/3/20 14:20
+#!@Create :2019/3/21 16:27
 #!@Author : zyy
-#!@File   : DataTransforBigDatalog.py
+#!@File   : DataTransforBigDatalogSSSP.py
 
 #filename='D:\Datasets\\test.txt'
-#fileNew = 'D:\Datasets\\testBDL.csv'
+#fileNew = 'D:\Datasets\\testBDLsssp.csv'
 
-filename='D:\Datasets\com-friendster.ungraph\com-friendster.ungraph.txt'
-fileNew = 'D:\Datasets\\friBDL.csv'
+filename='D:\Datasets\web-Google\web-Google.txt'
+fileNew = 'D:\Datasets\web-GoogleBDLsp.csv'
 fobj = open(fileNew, 'wb+')
 with open(filename,'r') as f:
     next(f)
@@ -22,7 +22,7 @@ with open(filename,'r') as f:
         res = line.split()
         srcid = res[0]
         dstid = res[1]
-        input = srcid+','+dstid+'\n'
+        input = srcid+','+dstid+','+'1'+'\n'
         input1 = bytes(input,encoding="utf8")
         fobj.write(input1)
 
