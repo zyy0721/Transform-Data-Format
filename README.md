@@ -1,5 +1,5 @@
 # Transform-Data-Format
-transform graphs' data format in my graduation project
+
 1. SNAP format -> Giraph format 
 
 FromNodeId ToNodeId -> [source_id,source_value,[[dest_id, edge_value],...]]
