@@ -7,8 +7,8 @@
 #filename='D:\Datasets\\test.txt'
 #fileNew = 'D:\Datasets\\testBDLsssp.csv'
 
-filename='D:\Datasets\web-Google\web-Google.txt'
-fileNew = 'D:\Datasets\web-GoogleBDLsp.csv'
+filename='D:\Datasets\com-friendster.ungraph\com-friendster.ungraph.txt'
+fileNew = 'D:\Datasets\BigDatalog\\friBDLsp.csv'
 fobj = open(fileNew, 'wb+')
 with open(filename,'r') as f:
     next(f)

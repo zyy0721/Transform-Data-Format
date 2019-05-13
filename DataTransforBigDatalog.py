@@ -4,11 +4,11 @@
 #!@Author : zyy
 #!@File   : DataTransforBigDatalog.py
 
-#filename='D:\Datasets\\test.txt'
-#fileNew = 'D:\Datasets\\testBDL.csv'
+filename='D:\Datasets\\testcircle.txt'
+fileNew = 'D:\Datasets\\testcircle.csv'
 
-filename='D:\Datasets\com-friendster.ungraph\com-friendster.ungraph.txt'
-fileNew = 'D:\Datasets\\friBDL.csv'
+#filename='D:\Datasets\com-friendster.ungraph\com-friendster.ungraph.txt'
+#fileNew = 'D:\Datasets\\friBDL.csv'
 fobj = open(fileNew, 'wb+')
 with open(filename,'r') as f:
     next(f)

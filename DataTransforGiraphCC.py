@@ -7,8 +7,8 @@
 #filename='D:\Datasets\\test.txt'
 #fileNew = 'D:\Datasets\\testforCC.txt'
 
-filename='D:\Datasets\web-Google\web-Google.txt'
-fileNew = 'D:\Datasets\web-GoogleCC.txt'
+filename='D:\Datasets\com-friendster.ungraph\com-friendster.ungraph.txt'
+fileNew = 'D:\Datasets\\friCC.txt'
 fobj = open(fileNew, 'wb+')
 allsrcid=set('')
 with open(filename,'r') as f:
